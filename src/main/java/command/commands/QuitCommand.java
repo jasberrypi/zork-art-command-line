@@ -1,6 +1,6 @@
-package command;
+package command.commands;
 
-public class ExitCommand implements Command {
+public class QuitCommand implements Command {
 
     @Override
     public void apply() {

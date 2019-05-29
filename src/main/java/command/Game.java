@@ -1,16 +1,21 @@
 package command;
 
+import command.commands.*;
+import command.objects.Room;
+
 import java.util.HashMap;
 import java.util.Scanner;
 
-public final class CommandFactory {
+public final class Game {
+    public static Room currentRoom;
 
     private static final HashMap<String, Command> commands = new HashMap<String, Command>() {
         {
-            // commands are added here using lambdas. It is also possible to dynamically add commands without editing the code.
-            put("Light on", new LightOnCommand());
-            put("Light off", new LightOffCommand());
-            put("quit", new ExitCommand());
+            put("up", new UpCommand());
+            put("down", new DownCommand());
+            put("left", new LeftCommand());
+            put("right", new RightCommand());
+            put("quit", new QuitCommand());
         }
     };
 
@@ -21,11 +26,11 @@ public final class CommandFactory {
     public static void main(final String[] arguments) {
         Scanner scanner = new Scanner(System.in);
         boolean quit = false;
-        System.out.println("Bot: Hello, command me!!");
+        System.out.println("Game: Level 1 objective is to kill every monster.");
         while (!quit) {
             System.out.print("You: ");
             String commandLine = scanner.nextLine();
-            Command command = CommandFactory.getCommand(commandLine);
+            Command command = Game.getCommand(commandLine);
             if (null == command) {
                 System.out.println("Unknown command [" + commandLine + "]. Available commands: Light on, Light off and quit.");
             } else {
