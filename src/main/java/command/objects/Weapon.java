@@ -1,4 +1,4 @@
 package command.objects;
 
-public class Weapon {
+public class Weapon extends Item{
 }
