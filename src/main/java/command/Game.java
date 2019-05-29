@@ -18,6 +18,7 @@ public final class Game {
             put("down", new DownCommand());
             put("left", new LeftCommand());
             put("right", new RightCommand());
+            put("info", new InfoCommand());
             put("take", new TakeCommand());
             put("quit", new QuitCommand());
         }
