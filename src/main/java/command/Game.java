@@ -3,7 +3,6 @@ package command;
 import command.commands.*;
 import command.objects.Player;
 import command.objects.Room;
-import command.objects.Weapon;
 
 import java.util.HashMap;
 import java.util.Scanner;
@@ -20,6 +19,7 @@ public final class Game {
             put("right", new RightCommand());
             put("info", new InfoCommand());
             put("take", new TakeCommand());
+            put("drop", new DropCommand());
             put("quit", new QuitCommand());
         }
     };
@@ -47,7 +47,7 @@ public final class Game {
             } else {
                 command.apply();
             }
-            if (player.item instanceof Weapon){
+            if (player.item != null && player.item.name.equals("sword")){
                 System.out.println("Objective completed");
                 quit = true;
             }
