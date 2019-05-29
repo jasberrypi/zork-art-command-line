@@ -26,13 +26,18 @@ public final class Game {
     public static void main(final String[] arguments) {
         Scanner scanner = new Scanner(System.in);
         boolean quit = false;
-        System.out.println("Game: Level 1 objective is to kill every monster.");
+
+        Level1 level1 = new Level1();
+        System.out.println("Welcome to " + level1.NAME);
+        System.out.println("Your objective is to " + level1.OBJECTIVE);
+        currentRoom = level1.startRoom;
+
         while (!quit) {
             System.out.print("You: ");
             String commandLine = scanner.nextLine();
             Command command = Game.getCommand(commandLine);
             if (null == command) {
-                System.out.println("Unknown command [" + commandLine + "]. Available commands: Light on, Light off and quit.");
+                System.out.println("Unknown command [" + commandLine + "].");
             } else {
                 command.apply();
             }
