@@ -20,6 +20,7 @@ public final class Game {
             put("info", new InfoCommand());
             put("take", new TakeCommand());
             put("drop", new DropCommand());
+            put("attack", new AttackCommand());
             put("quit", new QuitCommand());
         }
     };
