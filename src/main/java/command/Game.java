@@ -1,13 +1,16 @@
 package command;
 
 import command.commands.*;
+import command.objects.Player;
 import command.objects.Room;
+import command.objects.Weapon;
 
 import java.util.HashMap;
 import java.util.Scanner;
 
 public final class Game {
     public static Room currentRoom;
+    public static Player player;
 
     private static final HashMap<String, Command> commands = new HashMap<String, Command>() {
         {
@@ -15,6 +18,7 @@ public final class Game {
             put("down", new DownCommand());
             put("left", new LeftCommand());
             put("right", new RightCommand());
+            put("take", new TakeCommand());
             put("quit", new QuitCommand());
         }
     };
@@ -26,6 +30,7 @@ public final class Game {
     public static void main(final String[] arguments) {
         Scanner scanner = new Scanner(System.in);
         boolean quit = false;
+        player = new Player();
 
         Level1 level1 = new Level1();
         System.out.println("Welcome to " + level1.NAME);
@@ -40,6 +45,10 @@ public final class Game {
                 System.out.println("Unknown command [" + commandLine + "].");
             } else {
                 command.apply();
+            }
+            if (player.item instanceof Weapon){
+                System.out.println("Objective completed");
+                quit = true;
             }
         }
 

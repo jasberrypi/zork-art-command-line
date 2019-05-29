@@ -1,4 +1,5 @@
 package command.objects;
 
-public class Item {
+public abstract class Item {
+    public String name;
 }

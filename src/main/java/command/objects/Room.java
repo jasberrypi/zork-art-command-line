@@ -11,7 +11,7 @@ public class Room {
     public boolean existsLeftDoor;
     public boolean existsRightDoor;
 
-    public Weapon weapon;
+    public Item item;
     public Monster monster;
 
     public Room (){
@@ -25,7 +25,7 @@ public class Room {
         existsLeftDoor = false;
         existsRightDoor = false;
 
-        this.weapon = null;
+        this.item = null;
         this.monster = null;
     }
 
@@ -69,8 +69,8 @@ public class Room {
         this.rightRoom.existsLeftDoor = true;
     }
 
-    public void setWeapon(Weapon weapon) {
-        this.weapon = weapon;
+    public void setItem(Item item) {
+        this.item = item;
     }
 
     public void setMonster(Monster monster) {

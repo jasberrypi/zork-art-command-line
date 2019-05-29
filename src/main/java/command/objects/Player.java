@@ -23,8 +23,4 @@ public class Player {
     public void increaseAttackPower(int amount){
         this.attackPower += amount;
     }
-
-    public void setItem(Item item){
-        this.item = item;
-    }
 }
