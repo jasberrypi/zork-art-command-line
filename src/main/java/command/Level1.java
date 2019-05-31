@@ -23,7 +23,7 @@ public class Level1 {
         room2.setItem(knife);
         room3.setItem(sword);
 
-        Monster dragon = new Monster(50,5,0.5);
+        Monster dragon = new Monster("dragon",50,5,0.5);
         room1.setMonster(dragon);
 
         startRoom = room1;

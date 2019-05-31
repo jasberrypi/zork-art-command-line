@@ -2,15 +2,17 @@ package command.objects;
 
 public class Monster {
     public boolean alive;
+    public String name;
     public int hp;
     public int attackPower;
-    public double hitProbability;
+    public double hitProb;
 
-    public Monster(int hp, int attackPower, double hitProbability){
+    public Monster(String name, int hp, int attackPower, double hitProb){
         alive = true;
+        this.name = name;
         this.hp = hp;
         this.attackPower = attackPower;
-        this.hitProbability = hitProbability;
+        this.hitProb = hitProb;
     }
 
     public void decreaseHp(int amount){
@@ -22,11 +24,11 @@ public class Monster {
 
     public void attack(Player player){
         double randomNum = Math.random();
-        if (randomNum < this.hitProbability) {
+        if (randomNum < this.hitProb) {
             player.decreaseHp(this.attackPower);
-            System.out.println("Monster attacks: player -" + this.attackPower);
+            System.out.println("Monster attacks: Player -" + this.attackPower + " HP");
         } else{
-            System.out.println("Monster misses");
+            System.out.println("Monster misses.");
         }
     }
 }

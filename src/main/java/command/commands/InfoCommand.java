@@ -21,7 +21,7 @@ public class InfoCommand implements Command {
             System.out.println("Contains " + Game.currentRoom.item.name + " (" + Game.currentRoom.item.ability + ")");
         }
         if (Game.currentRoom.monster != null){
-            System.out.println("Contains monster");
+            System.out.println("Contains " + Game.currentRoom.monster.name + " (HP: " + Game.currentRoom.monster.hp + ")");
         }
         System.out.print("Has door(s): ");
         if (Game.currentRoom.existsUpDoor){

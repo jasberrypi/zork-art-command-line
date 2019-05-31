@@ -39,10 +39,10 @@ public class Player {
         if (this.item instanceof Weapon){
             int totalAttackPower = this.attackPower + ((Weapon) this.item).addedAttackPower;
             monster.decreaseHp(totalAttackPower);
-            System.out.println("Player attacks: monster -" + totalAttackPower);
+            System.out.println("Player attacks: Monster -" + totalAttackPower + " HP");
         } else {
             monster.decreaseHp(this.attackPower);
-            System.out.println("Player attacks: monster -" + this.attackPower);
+            System.out.println("Player attacks: Monster -" + this.attackPower + " HP");
         }
 
         if(monster.alive){
@@ -54,9 +54,8 @@ public class Player {
         } else{
             Game.currentRoom.monster = null;
             this.attackPower += 1;
-            System.out.println("Defeated monster");
+            System.out.println("Defeated monster.");
             System.out.println("Updated attack power: " + this.attackPower);
         }
-
     }
 }
