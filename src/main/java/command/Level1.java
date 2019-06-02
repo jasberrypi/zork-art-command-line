@@ -1,15 +1,14 @@
 package command;
 
-import command.objects.Monster;
 import command.objects.Room;
 import command.objects.Weapon;
 
-public class Level1 {
-    public static final String NAME = "Level 1";
-    public static final String OBJECTIVE = "pick up a sword weapon";
-    public Room startRoom;
+public class Level1 extends Level{
 
     public Level1(){
+        name = "Level 1";
+        objective = "pick up a sword weapon";
+
         Room room1 = new Room();
         Room room2 = new Room();
         Room room3 = new Room();
@@ -23,9 +22,14 @@ public class Level1 {
         room2.setItem(knife);
         room3.setItem(sword);
 
-        Monster dragon = new Monster("dragon",50,5,0.5);
-        room1.setMonster(dragon);
-
         startRoom = room1;
+    }
+
+    @Override
+    public boolean objectiveCompleted() {
+        if (Game.player.item != null && Game.player.item.name.equals("sword")){
+            return true;
+        }
+        return false;
     }
 }

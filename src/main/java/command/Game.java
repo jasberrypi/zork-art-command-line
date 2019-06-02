@@ -4,12 +4,15 @@ import command.commands.*;
 import command.objects.Player;
 import command.objects.Room;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Scanner;
 
-public final class Game {
-    public static Room currentRoom;
+public final class Game { //Singleton class
+    public static List<Level> listOfLevels = new ArrayList<Level>();
     public static Player player;
+    public static Room currentRoom;
 
     public static final HashMap<String, Command> commands = new HashMap<String, Command>() {
         {
@@ -36,24 +39,33 @@ public final class Game {
         player = new Player();
 
         Level1 level1 = new Level1();
-        System.out.println("Welcome to " + level1.NAME);
-        System.out.println("Your objective is to " + level1.OBJECTIVE);
-        currentRoom = level1.startRoom;
+        listOfLevels.add(level1);
 
-        while (!quit) {
-            System.out.print("You: ");
-            String commandLine = scanner.nextLine();
-            Command command = Game.getCommand(commandLine);
-            if (null == command) {
-                System.out.println("Unknown command [" + commandLine + "].");
-            } else {
-                command.apply();
+        for (Level level: listOfLevels){
+            System.out.println("Welcome to " + level.name);
+            System.out.println("Your objective is to " + level.objective);
+            currentRoom = level.startRoom;
+
+            while (!quit) {
+                System.out.print("You: ");
+                String commandLine = scanner.nextLine();
+                Command command = Game.getCommand(commandLine);
+                if (null == command) {
+                    System.out.println("Unknown command [" + commandLine + "].");
+                } else {
+                    command.apply();
+                }
+
+                if (level.objectiveCompleted()){
+                    System.out.println("Objective completed");
+                    System.out.println("----------");
+                    System.out.println();
+                    quit = true;
+                }
             }
-            if (player.item != null && player.item.name.equals("sword")){
-                System.out.println("Objective completed");
-                quit = true;
-            }
+            quit = false;
         }
+        System.out.println("Game completed");
 
     }
 
