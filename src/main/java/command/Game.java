@@ -11,13 +11,14 @@ public final class Game {
     public static Room currentRoom;
     public static Player player;
 
-    private static final HashMap<String, Command> commands = new HashMap<String, Command>() {
+    public static final HashMap<String, Command> commands = new HashMap<String, Command>() {
         {
             put("up", new UpCommand());
             put("down", new DownCommand());
             put("left", new LeftCommand());
             put("right", new RightCommand());
             put("info", new InfoCommand());
+            put("help", new HelpCommand());
             put("take", new TakeCommand());
             put("drop", new DropCommand());
             put("attack", new AttackCommand());

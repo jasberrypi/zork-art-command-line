@@ -1,6 +1,9 @@
 package command.commands;
 
-public class QuitCommand implements Command {
+public class QuitCommand extends Command {
+    public QuitCommand(){
+        description = "quits game";
+    }
 
     @Override
     public void apply() {

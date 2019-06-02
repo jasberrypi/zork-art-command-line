@@ -2,7 +2,10 @@ package command.commands;
 
 import command.Game;
 
-public class DropCommand implements Command {
+public class DropCommand extends Command {
+    public DropCommand(){
+        description = "drops item that the player currently carries";
+    }
 
     @Override
     public void apply() {

@@ -2,7 +2,10 @@ package command.commands;
 
 import command.Game;
 
-public class DownCommand implements Command {
+public class DownCommand extends Command {
+    public DownCommand(){
+        description = "goes down";
+    }
 
     @Override
     public void apply() {

@@ -2,7 +2,10 @@ package command.commands;
 
 import command.Game;
 
-public class InfoCommand implements Command {
+public class InfoCommand extends Command {
+    public InfoCommand(){
+        description = "prints out Player Stats and Room Info";
+    }
 
     @Override
     public void apply() {

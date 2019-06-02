@@ -1,5 +1,6 @@
 package command.commands;
 
-public interface Command {
-    void apply();
+public abstract class Command {
+    public String description;
+    public abstract void apply();
 }

@@ -2,7 +2,10 @@ package command.commands;
 
 import command.Game;
 
-public class LeftCommand implements Command {
+public class LeftCommand extends Command {
+    public LeftCommand(){
+        description = "goes left";
+    }
 
     @Override
     public void apply() {

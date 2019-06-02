@@ -2,7 +2,10 @@ package command.commands;
 
 import command.Game;
 
-public class AttackCommand implements Command {
+public class AttackCommand extends Command {
+    public AttackCommand(){
+        description = "attacks monster in the current room";
+    }
 
     @Override
     public void apply() {
