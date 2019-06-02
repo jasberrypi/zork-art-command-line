@@ -1,9 +1,10 @@
-package command;
+package command.levels;
 
+import command.Game;
 import command.objects.Room;
 import command.objects.Weapon;
 
-public class Level1 extends Level{
+public class Level1 extends Level {
 
     public Level1(){
         name = "Level 1";

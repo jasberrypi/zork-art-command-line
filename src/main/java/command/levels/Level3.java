@@ -1,5 +1,6 @@
-package command;
+package command.levels;
 
+import command.Game;
 import command.objects.Monster;
 import command.objects.Potion;
 import command.objects.Room;
@@ -8,7 +9,7 @@ import command.objects.Weapon;
 import java.util.HashSet;
 import java.util.Set;
 
-public class Level3 extends Level{
+public class Level3 extends Level {
     public Set<Room> roomsWithMonsters = new HashSet<Room>();
 
     public Level3(){
@@ -77,7 +78,7 @@ public class Level3 extends Level{
 
     @Override
     public boolean objectiveCompleted() {
-        for (Room room : ((Level3)Game.currentLevel).roomsWithMonsters){
+        for (Room room : ((Level3) Game.currentLevel).roomsWithMonsters){
             if (room.monster != null){
                 return false;
             }

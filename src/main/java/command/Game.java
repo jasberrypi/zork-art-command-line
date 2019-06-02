@@ -1,6 +1,7 @@
 package command;
 
 import command.commands.*;
+import command.levels.*;
 import command.objects.Player;
 import command.objects.Room;
 

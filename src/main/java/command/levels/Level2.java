@@ -1,9 +1,10 @@
-package command;
+package command.levels;
 
+import command.Game;
 import command.objects.Monster;
 import command.objects.Room;
 
-public class Level2 extends Level{
+public class Level2 extends Level {
     public Room roomWithDragon;
 
     public Level2(){
@@ -50,7 +51,7 @@ public class Level2 extends Level{
 
     @Override
     public boolean objectiveCompleted() {
-        if (((Level2)Game.currentLevel).roomWithDragon.monster == null){
+        if (((Level2) Game.currentLevel).roomWithDragon.monster == null){
             return true;
         }
         return false;

@@ -2,7 +2,7 @@ package command.commands;
 
 public class QuitCommand extends Command {
     public QuitCommand(){
-        description = "quits game";
+        description = "quits command";
     }
 
     @Override

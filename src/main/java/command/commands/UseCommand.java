@@ -12,8 +12,8 @@ public class UseCommand extends Command {
     public void apply() {
         if (Game.player.item != null && Game.player.item instanceof Potion) {
             Game.player.increaseHp(((Potion) Game.player.item).addedHP);
+            System.out.println("Drank " + Game.player.item.name);
             Game.player.item = null;
-            System.out.println("Drank " + Game.currentRoom.item.name);
         } else if (Game.player.item != null) {
             System.out.println("Item isn't usable.");
         } else {
