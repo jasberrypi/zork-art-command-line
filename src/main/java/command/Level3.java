@@ -1,6 +1,7 @@
 package command;
 
 import command.objects.Monster;
+import command.objects.Potion;
 import command.objects.Room;
 import command.objects.Weapon;
 
@@ -25,6 +26,8 @@ public class Level3 extends Level{
         Room room9 = new Room();
 
         Weapon lightsaber = new Weapon("lightsaber", 20);
+        Potion water = new Potion("water", 20);
+        Potion elixir = new Potion("elixir", 100);
 
         Monster snake1 = new Monster("snake",50,5,0.8);
         Monster snake2 = new Monster("snake",50,5,0.8);
@@ -55,6 +58,8 @@ public class Level3 extends Level{
         room5.setLeftDoor();
 
         room8.setItem(lightsaber);
+        room3.setItem(water);
+        room6.setItem(elixir);
 
         room2.setMonster(snake1);
         roomsWithMonsters.add(room2);

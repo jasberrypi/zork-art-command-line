@@ -26,6 +26,7 @@ public final class Game { //Singleton class
             put("take", new TakeCommand());
             put("drop", new DropCommand());
             put("attack", new AttackCommand());
+            put("use", new UseCommand());
             put("quit", new QuitCommand());
         }
     };

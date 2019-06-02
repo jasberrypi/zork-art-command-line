@@ -11,7 +11,7 @@ public class DownCommand extends Command {
     public void apply() {
         if (Game.currentRoom.downRoom != null && Game.currentRoom.existsDownDoor){
             Game.currentRoom = Game.currentRoom.downRoom;
-            if (Game.player.hp < 100) Game.player.hp += 1;
+            Game.player.increaseHp(1);
             System.out.println("Moved down.");
         }else{
             System.out.println("Can not move down.");
