@@ -12,6 +12,7 @@ import java.util.Scanner;
 public final class Game { //Singleton class
     public static List<Level> listOfLevels = new ArrayList<Level>();
     public static Player player;
+    public static Level currentLevel;
     public static Room currentRoom;
 
     public static final HashMap<String, Command> commands = new HashMap<String, Command>() {
@@ -40,8 +41,11 @@ public final class Game { //Singleton class
 
         Level1 level1 = new Level1();
         listOfLevels.add(level1);
+        Level2 level2 = new Level2();
+        listOfLevels.add(level2);
 
         for (Level level: listOfLevels){
+            currentLevel = level;
             System.out.println("Welcome to " + level.name);
             System.out.println("Your objective is to " + level.objective);
             currentRoom = level.startRoom;
