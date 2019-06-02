@@ -43,6 +43,8 @@ public final class Game { //Singleton class
         listOfLevels.add(level1);
         Level2 level2 = new Level2();
         listOfLevels.add(level2);
+        Level3 level3 = new Level3();
+        listOfLevels.add(level3);
 
         for (Level level: listOfLevels){
             currentLevel = level;
@@ -69,7 +71,8 @@ public final class Game { //Singleton class
             }
             quit = false;
         }
-        System.out.println("Game completed");
+        System.out.println("All levels cleared.");
+        System.out.println("Game completed.");
 
     }
 

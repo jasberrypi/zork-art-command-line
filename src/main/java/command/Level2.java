@@ -19,8 +19,8 @@ public class Level2 extends Level{
         Room room7 = new Room();
         Room room8 = new Room();
 
-        Monster snake = new Monster("snake",20,2,0.8);
-        Monster dragon = new Monster("dragon",50,5,0.5);
+        Monster snake = new Monster("snake",50,5,0.8);
+        Monster dragon = new Monster("dragon",100,10,0.5);
 
         room1.setRightRoom(room2);
         room1.setRightDoor();
