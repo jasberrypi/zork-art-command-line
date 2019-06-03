@@ -3,6 +3,7 @@ package command.levels;
 import command.Game;
 import command.objects.monsters.Monster;
 import command.objects.Room;
+import command.objects.monsters.MonsterFactory;
 
 public class Level2 extends Level {
     public Room roomWithDragon;
@@ -10,6 +11,8 @@ public class Level2 extends Level {
     public Level2(){
         name = "Level 2";
         objective = "kill a dragon";
+
+        MonsterFactory monsterFactory = new MonsterFactory();
 
         Room room1 = new Room();
         Room room2 = new Room();
@@ -20,8 +23,8 @@ public class Level2 extends Level {
         Room room7 = new Room();
         Room room8 = new Room();
 
-        Monster snake = new Monster("snake",50,5,0.8);
-        Monster dragon = new Monster("dragon",100,10,0.5);
+        Monster snake = monsterFactory.makeSnake();
+        Monster dragon = monsterFactory.makeDragon();
 
         room1.setRightRoom(room2);
         room1.setRightDoor();

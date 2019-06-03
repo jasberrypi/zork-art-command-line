@@ -1,10 +1,12 @@
 package command.levels;
 
 import command.Game;
+import command.objects.items.ItemFactory;
 import command.objects.monsters.Monster;
 import command.objects.items.potions.Potion;
 import command.objects.Room;
 import command.objects.items.weapons.Weapon;
+import command.objects.monsters.MonsterFactory;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -16,6 +18,9 @@ public class Level3 extends Level {
         name = "Level 3";
         objective = "kill every monster";
 
+        ItemFactory itemFactory = new ItemFactory();
+        MonsterFactory monsterFactory = new MonsterFactory();
+
         Room room1 = new Room();
         Room room2 = new Room();
         Room room3 = new Room();
@@ -26,15 +31,15 @@ public class Level3 extends Level {
         Room room8 = new Room();
         Room room9 = new Room();
 
-        Weapon lightsaber = new Weapon("lightsaber", 20);
-        Potion water = new Potion("water", 20);
-        Potion elixir = new Potion("elixir", 100);
+        Weapon lightsaber = itemFactory.makeLightsaber();
+        Potion water = itemFactory.makeWater();
+        Potion elixir = itemFactory.makeElixir();
 
-        Monster snake1 = new Monster("snake",50,5,0.8);
-        Monster snake2 = new Monster("snake",50,5,0.8);
-        Monster dragon1 = new Monster("dragon",100,10,0.5);
-        Monster dragon2 = new Monster("dragon",100,10,0.5);
-        Monster zork = new Monster("zork",200,20,1);
+        Monster snake1 = monsterFactory.makeSnake();
+        Monster snake2 = monsterFactory.makeSnake();
+        Monster dragon1 = monsterFactory.makeDragon();
+        Monster dragon2 = monsterFactory.makeDragon();
+        Monster zork = monsterFactory.makeZork();
 
         room1.setRightRoom(room2);
         room1.setRightDoor();
