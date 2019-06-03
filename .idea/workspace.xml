@@ -3,9 +3,33 @@
   <component name="ChangeListManager">
     <list default="true" id="d4c4c20a-bd94-4e79-b54c-22c49faf1f3f" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/command/commands/DownCommand.java" afterPath="$PROJECT_DIR$/src/main/java/command/commands/DownCommand.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/command/commands/InfoCommand.java" afterPath="$PROJECT_DIR$/src/main/java/command/commands/InfoCommand.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/command/commands/LeftCommand.java" afterPath="$PROJECT_DIR$/src/main/java/command/commands/LeftCommand.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/command/commands/RightCommand.java" afterPath="$PROJECT_DIR$/src/main/java/command/commands/RightCommand.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/command/commands/UpCommand.java" afterPath="$PROJECT_DIR$/src/main/java/command/commands/UpCommand.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/command/levels/Level1.java" afterPath="$PROJECT_DIR$/src/main/java/command/levels/Level1.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/command/levels/Level2.java" afterPath="$PROJECT_DIR$/src/main/java/command/levels/Level2.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/command/levels/Level3.java" afterPath="$PROJECT_DIR$/src/main/java/command/levels/Level3.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/command/objects/Room.java" afterPath="$PROJECT_DIR$/src/main/java/command/objects/Room.java" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/commands/AttackCommand.class" afterPath="$PROJECT_DIR$/target/classes/command/commands/AttackCommand.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/commands/DownCommand.class" afterPath="$PROJECT_DIR$/target/classes/command/commands/DownCommand.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/commands/DropCommand.class" afterPath="$PROJECT_DIR$/target/classes/command/commands/DropCommand.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/commands/InfoCommand.class" afterPath="$PROJECT_DIR$/target/classes/command/commands/InfoCommand.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/commands/LeftCommand.class" afterPath="$PROJECT_DIR$/target/classes/command/commands/LeftCommand.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/commands/RightCommand.class" afterPath="$PROJECT_DIR$/target/classes/command/commands/RightCommand.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/commands/TakeCommand.class" afterPath="$PROJECT_DIR$/target/classes/command/commands/TakeCommand.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/commands/UpCommand.class" afterPath="$PROJECT_DIR$/target/classes/command/commands/UpCommand.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/commands/UseCommand.class" afterPath="$PROJECT_DIR$/target/classes/command/commands/UseCommand.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/levels/Level1.class" afterPath="$PROJECT_DIR$/target/classes/command/levels/Level1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/levels/Level2.class" afterPath="$PROJECT_DIR$/target/classes/command/levels/Level2.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/levels/Level3.class" afterPath="$PROJECT_DIR$/target/classes/command/levels/Level3.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/objects/Item.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/objects/Monster.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/objects/Player.class" afterPath="$PROJECT_DIR$/target/classes/command/objects/Player.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/objects/Potion.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/objects/Room.class" afterPath="$PROJECT_DIR$/target/classes/command/objects/Room.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/objects/Weapon.class" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,14 +42,48 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ItemFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/command/objects/items/ItemFactory.java">
+      <file leaf-file-name="Level2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/command/levels/Level2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="25" column="31" lean-forward="false" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+            <state relative-caret-position="684">
+              <caret line="36" column="30" lean-forward="false" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Level3.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/command/levels/Level3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="950">
+              <caret line="59" column="17" lean-forward="false" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
+              <folding>
+                <element signature="e#434#440#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Level1.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/command/levels/Level1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InfoCommand.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/command/commands/InfoCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="627">
+              <caret line="35" column="35" lean-forward="false" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -34,95 +92,57 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/command/objects/monsters/MonsterFactory.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="209">
-              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Level3.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/command/levels/Level3.java">
+      <file leaf-file-name="UpCommand.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/command/commands/UpCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="20" column="8" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="21" selection-end-column="61" />
-              <folding>
-                <element signature="e#434#440#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Level2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/command/levels/Level2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-121">
-              <caret line="26" column="53" lean-forward="false" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Level1.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/command/levels/Level1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" column="47" lean-forward="false" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Lightsaber.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/command/objects/items/weapons/Lightsaber.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-              <folding>
-                <element signature="e#144#145#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Knife.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/command/objects/items/weapons/Knife.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="171">
+              <caret line="11" column="43" lean-forward="false" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Monster.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/command/objects/monsters/Monster.java">
+      <file leaf-file-name="DownCommand.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/command/commands/DownCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="71" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="71" />
+            <state relative-caret-position="171">
+              <caret line="11" column="45" lean-forward="false" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Weapon.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/command/objects/items/weapons/Weapon.java">
+      <file leaf-file-name="LeftCommand.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/command/commands/LeftCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="51" lean-forward="false" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="51" />
+            <state relative-caret-position="171">
+              <caret line="11" column="45" lean-forward="false" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Potion.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/command/objects/items/potions/Potion.java">
+      <file leaf-file-name="RightCommand.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/command/commands/RightCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="42" />
+            <state relative-caret-position="228">
+              <caret line="14" column="47" lean-forward="false" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Room.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/command/objects/Room.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="779">
+              <caret line="42" column="5" lean-forward="false" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -164,14 +184,10 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/command/movecommands/LeftCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/command/movecommands/RightCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/command/objects/Room.java" />
         <option value="$PROJECT_DIR$/src/main/java/command/objects/Item.java" />
         <option value="$PROJECT_DIR$/src/main/java/command/objects/Weapon.java" />
         <option value="$PROJECT_DIR$/src/main/java/command/objects/Monster.java" />
         <option value="$PROJECT_DIR$/src/main/java/command/commands/HelpCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/command/commands/AttackCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/command/commands/DropCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/command/commands/InfoCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/command/commands/QuitCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/command/commands/TakeCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/command/commands/Command.java" />
@@ -179,10 +195,6 @@
         <option value="$PROJECT_DIR$/src/main/java/command/Level1.java" />
         <option value="$PROJECT_DIR$/src/main/java/command/Level2.java" />
         <option value="$PROJECT_DIR$/src/main/java/command/objects/Potion.java" />
-        <option value="$PROJECT_DIR$/src/main/java/command/commands/DownCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/command/commands/LeftCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/command/commands/RightCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/command/commands/UpCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/command/Level3.java" />
         <option value="$PROJECT_DIR$/src/main/java/command/Game.java" />
         <option value="$PROJECT_DIR$/src/main/java/command/commands/UseCommand.java" />
@@ -210,9 +222,17 @@
         <option value="$PROJECT_DIR$/src/main/java/command/objects/monsters/MonsterFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/command/objects/items/weapons/Lightsaber.java" />
         <option value="$PROJECT_DIR$/src/main/java/command/objects/items/ItemFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/command/levels/Level3.java" />
-        <option value="$PROJECT_DIR$/src/main/java/command/levels/Level2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/command/commands/AttackCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/command/commands/DropCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/command/objects/Room.java" />
         <option value="$PROJECT_DIR$/src/main/java/command/levels/Level1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/command/levels/Level2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/command/levels/Level3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/command/commands/InfoCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/command/commands/UpCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/command/commands/DownCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/command/commands/LeftCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/command/commands/RightCommand.java" />
       </list>
     </option>
   </component>
@@ -547,11 +567,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25648000" />
+    <option name="totallyTimeSpent" value="26985000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -561,7 +580,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -656,7 +675,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -746,47 +765,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/command/LightOnCommand.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/command/LightOffCommand.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/command/commands/Command.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="11" lean-forward="false" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/command/commands/DropCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-          <folding>
-            <element signature="e#116#117#0" expanded="false" />
-            <element signature="e#192#193#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/command/commands/DownCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="13" column="12" lean-forward="false" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="38" />
-          <folding>
-            <element signature="e#116#117#0" expanded="false" />
-            <element signature="e#157#158#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/command/commands/UpCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="13" column="38" lean-forward="false" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
-          <folding>
-            <element signature="e#112#113#0" expanded="false" />
-            <element signature="e#151#152#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/command/levels/Level3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="661">
@@ -828,14 +806,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/command/commands/AttackCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="6" column="58" lean-forward="false" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
           <folding />
         </state>
       </provider>
@@ -922,26 +892,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/command/objects/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="54" column="34" lean-forward="false" selection-start-line="54" selection-start-column="34" selection-end-line="54" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/command/commands/HelpCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="7" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/command/commands/LeftCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="13" column="38" lean-forward="false" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
           <folding />
         </state>
       </provider>
@@ -962,44 +916,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/command/objects/Room.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/command/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-143">
-          <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/command/commands/UseCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="14" column="53" lean-forward="false" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/command/commands/RightCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="13" column="38" lean-forward="false" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/command/commands/InfoCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="41" />
           <folding />
         </state>
       </provider>
@@ -1028,14 +948,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/command/objects/monsters/MonsterFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/command/objects/items/weapons/Knife.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -1049,7 +961,7 @@
         <state relative-caret-position="76">
           <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
           <folding>
-            <element signature="e#144#145#0" expanded="true" />
+            <element signature="e#144#145#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1059,6 +971,76 @@
         <state relative-caret-position="342">
           <caret line="25" column="31" lean-forward="false" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
           <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/command/commands/Command.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="11" lean-forward="false" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/command/commands/AttackCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/command/commands/DropCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/command/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/command/objects/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="54" column="34" lean-forward="false" selection-start-line="54" selection-start-column="34" selection-end-line="54" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/command/objects/Room.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="42" column="5" lean-forward="false" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/command/levels/Level1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/command/levels/Level2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="36" column="30" lean-forward="false" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+          <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
@@ -1066,31 +1048,59 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/command/levels/Level3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="20" column="8" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="21" selection-end-column="61" />
+        <state relative-caret-position="950">
+          <caret line="59" column="17" lean-forward="false" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
           <folding>
             <element signature="e#434#440#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/command/levels/Level2.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/command/commands/InfoCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-121">
-          <caret line="26" column="53" lean-forward="false" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="627">
+          <caret line="35" column="35" lean-forward="false" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/command/levels/Level1.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/command/objects/monsters/MonsterFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="47" lean-forward="false" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="209">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/command/commands/UpCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="11" column="43" lean-forward="false" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/command/commands/DownCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="11" column="45" lean-forward="false" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/command/commands/LeftCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="11" column="45" lean-forward="false" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/command/commands/RightCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="14" column="47" lean-forward="false" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+          <folding />
         </state>
       </provider>
     </entry>

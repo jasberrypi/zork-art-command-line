@@ -9,7 +9,7 @@ public class UpCommand extends Command {
 
     @Override
     public void apply() {
-        if (Game.currentRoom.upRoom != null && Game.currentRoom.existsUpDoor){
+        if (Game.currentRoom.upRoom != null){
             Game.currentRoom = Game.currentRoom.upRoom;
             Game.player.increaseHp(1);
             System.out.println("Moved up.");

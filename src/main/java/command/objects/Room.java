@@ -9,11 +9,6 @@ public class Room {
     public Room leftRoom;
     public Room rightRoom;
 
-    public boolean existsUpDoor;
-    public boolean existsDownDoor;
-    public boolean existsLeftDoor;
-    public boolean existsRightDoor;
-
     public Item item;
     public Monster monster;
 
@@ -22,11 +17,6 @@ public class Room {
         downRoom = null;
         leftRoom = null;
         rightRoom = null;
-
-        existsUpDoor = false;
-        existsDownDoor = false;
-        existsLeftDoor = false;
-        existsRightDoor = false;
 
         this.item = null;
         this.monster = null;
@@ -50,26 +40,6 @@ public class Room {
     public void setRightRoom(Room rightRoom) {
         this.rightRoom = rightRoom;
         rightRoom.leftRoom = this;
-    }
-
-    public void setUpDoor(){
-        this.existsUpDoor = true;
-        this.upRoom.existsDownDoor = true;
-    }
-
-    public void setDownDoor(){
-        this.existsDownDoor = true;
-        this.downRoom.existsUpDoor = true;
-    }
-
-    public void setLeftDoor(){
-        this.existsLeftDoor = true;
-        this.leftRoom.existsRightDoor = true;
-    }
-
-    public void setRightDoor(){
-        this.existsRightDoor = true;
-        this.rightRoom.existsLeftDoor = true;
     }
 
     public void setItem(Item item) {

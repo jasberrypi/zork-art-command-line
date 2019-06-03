@@ -9,7 +9,7 @@ public class DownCommand extends Command {
 
     @Override
     public void apply() {
-        if (Game.currentRoom.downRoom != null && Game.currentRoom.existsDownDoor){
+        if (Game.currentRoom.downRoom != null){
             Game.currentRoom = Game.currentRoom.downRoom;
             Game.player.increaseHp(1);
             System.out.println("Moved down.");

@@ -42,26 +42,22 @@ public class Level3 extends Level {
         Monster zork = monsterFactory.makeZork();
 
         room1.setRightRoom(room2);
-        room1.setRightDoor();
         room2.setRightRoom(room3);
-        room2.setRightDoor();
+
+        room4.setRightRoom(room5);
+        room5.setRightRoom(room6);
+
+        room7.setRightRoom(room8);
+        room8.setRightRoom(room9);
 
         room1.setDownRoom(room4);
-        room1.setDownDoor();
-        room3.setDownRoom(room5);
-        room3.setDownDoor();
+        room4.setDownRoom(room7);
 
-        room4.setDownRoom(room6);
-        room4.setDownDoor();
-        room6.setRightRoom(room7);
-        room6.setRightDoor();
-        room7.setRightRoom(room8);
-        room7.setRightDoor();
+        room2.setDownRoom(room5);
         room5.setDownRoom(room8);
-        room5.setDownDoor();
 
-        room5.setLeftRoom(room9);
-        room5.setLeftDoor();
+        room3.setDownRoom(room6);
+        room6.setDownRoom(room9);
 
         room8.setItem(lightsaber);
         room3.setItem(water);

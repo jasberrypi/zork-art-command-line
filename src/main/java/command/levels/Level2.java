@@ -20,34 +20,21 @@ public class Level2 extends Level {
         Room room4 = new Room();
         Room room5 = new Room();
         Room room6 = new Room();
-        Room room7 = new Room();
-        Room room8 = new Room();
 
         Monster snake = monsterFactory.makeSnake();
         Monster dragon = monsterFactory.makeDragon();
 
         room1.setRightRoom(room2);
-        room1.setRightDoor();
-        room2.setRightRoom(room3);
-        room2.setRightDoor();
 
-        room1.setDownRoom(room4);
-        room1.setDownDoor();
-        room3.setDownRoom(room5);
-        room3.setDownDoor();
+        room2.setUpRoom(room3);
+        room3.setRightRoom(room4);
 
-        room4.setDownRoom(room6);
-        room4.setDownDoor();
-        room6.setRightRoom(room7);
-        room6.setRightDoor();
-        room7.setRightRoom(room8);
-        room7.setRightDoor();
-        room5.setDownRoom(room8);
-        room5.setDownDoor();
+        room2.setDownRoom(room5);
+        room5.setRightRoom(room6);
 
-        room2.setMonster(snake);
-        room7.setMonster(dragon);
-        roomWithDragon = room7;
+        room4.setMonster(snake);
+        room6.setMonster(dragon);
+        roomWithDragon = room6;
 
         startRoom = room1;
     }

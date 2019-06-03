@@ -9,7 +9,7 @@ public class RightCommand extends Command {
 
     @Override
     public void apply() {
-        if (Game.currentRoom.rightRoom != null && Game.currentRoom.existsRightDoor){
+        if (Game.currentRoom.rightRoom != null){
             Game.currentRoom = Game.currentRoom.rightRoom;
             Game.player.increaseHp(1);
             System.out.println("Moved right.");

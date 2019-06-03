@@ -9,7 +9,7 @@ public class LeftCommand extends Command {
 
     @Override
     public void apply() {
-        if (Game.currentRoom.leftRoom != null && Game.currentRoom.existsLeftDoor){
+        if (Game.currentRoom.leftRoom != null){
             Game.currentRoom = Game.currentRoom.leftRoom;
             Game.player.increaseHp(1);
             System.out.println("Moved left.");

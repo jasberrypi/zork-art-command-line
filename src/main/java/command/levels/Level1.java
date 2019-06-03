@@ -21,9 +21,8 @@ public class Level1 extends Level {
         Weapon sword = itemFactory.makeSword();
 
         room1.setRightRoom(room2);
-        room1.setRightDoor();
         room2.setRightRoom(room3);
-        room2.setRightDoor();
+
         room2.setItem(knife);
         room3.setItem(sword);
 
