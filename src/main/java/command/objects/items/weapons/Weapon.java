@@ -1,6 +1,8 @@
-package command.objects;
+package command.objects.items.weapons;
 
-public class Weapon extends Item{
+import command.objects.items.Item;
+
+public class Weapon extends Item {
     public int addedAttackPower;
 
     public Weapon(String name, int addedAttackPower){

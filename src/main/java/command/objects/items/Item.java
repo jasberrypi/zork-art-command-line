@@ -1,4 +1,4 @@
-package command.objects;
+package command.objects.items;
 
 public abstract class Item {
     public String name;

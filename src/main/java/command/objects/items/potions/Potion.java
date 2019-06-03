@@ -1,6 +1,8 @@
-package command.objects;
+package command.objects.items.potions;
 
-public class Potion extends Item{
+import command.objects.items.Item;
+
+public class Potion extends Item {
     public int addedHP;
 
     public Potion(String name, int addedHP){

@@ -1,10 +1,10 @@
 package command.levels;
 
 import command.Game;
-import command.objects.Monster;
-import command.objects.Potion;
+import command.objects.monsters.Monster;
+import command.objects.items.potions.Potion;
 import command.objects.Room;
-import command.objects.Weapon;
+import command.objects.items.weapons.Weapon;
 
 import java.util.HashSet;
 import java.util.Set;

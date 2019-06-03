@@ -2,7 +2,7 @@ package command.levels;
 
 import command.Game;
 import command.objects.Room;
-import command.objects.Weapon;
+import command.objects.items.weapons.Weapon;
 
 public class Level1 extends Level {
 

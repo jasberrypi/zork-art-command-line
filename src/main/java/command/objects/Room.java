@@ -1,5 +1,8 @@
 package command.objects;
 
+import command.objects.items.Item;
+import command.objects.monsters.Monster;
+
 public class Room {
     public Room upRoom;
     public Room downRoom;

@@ -1,4 +1,6 @@
-package command.objects;
+package command.objects.monsters;
+
+import command.objects.Player;
 
 public class Monster {
     public boolean alive;

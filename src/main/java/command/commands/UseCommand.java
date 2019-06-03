@@ -1,7 +1,7 @@
 package command.commands;
 
 import command.Game;
-import command.objects.Potion;
+import command.objects.items.potions.Potion;
 
 public class UseCommand extends Command {
     public UseCommand(){

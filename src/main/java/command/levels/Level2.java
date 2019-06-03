@@ -1,7 +1,7 @@
 package command.levels;
 
 import command.Game;
-import command.objects.Monster;
+import command.objects.monsters.Monster;
 import command.objects.Room;
 
 public class Level2 extends Level {

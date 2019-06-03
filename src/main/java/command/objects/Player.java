@@ -1,6 +1,9 @@
 package command.objects;
 
 import command.Game;
+import command.objects.items.Item;
+import command.objects.items.weapons.Weapon;
+import command.objects.monsters.Monster;
 
 public class Player {
     public boolean alive;
@@ -29,10 +32,6 @@ public class Player {
         if (this.hp <= 0){
             this.alive = false;
         }
-    }
-
-    public void increaseAttackPower(int amount){
-        this.attackPower += amount;
     }
 
     public void attack(Monster monster){
